@@ -5,9 +5,7 @@
   "type": "module",
   "author": "Nabil Mersni",
   "scripts": {
-    "dev": "npm-run-all --parallel dev:frontend dev:backend",
-    "dev:frontend": "vite",
-    "dev:backend": "cd ../backend && nodemon server.js",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
